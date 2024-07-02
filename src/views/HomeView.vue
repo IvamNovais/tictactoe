@@ -59,6 +59,12 @@ export default {
           return true
         }
       }
+      if(x-y===2||x-y===-2||(x===1&&y===1)){
+        this.diagonais[1] = this.vezDe==="X"? this.diagonais[1]+1:this.diagonais[1]-1
+        if(this.diagonais[1]===3||this.diagonais[1]===-3){
+          return true
+        }
+      }
       return this.linhas[x]===3||this.linhas[x]===-3||this.colunas[y]===3||this.colunas[y]===-3
 
     },
