@@ -1,5 +1,8 @@
 # velha
 
+o projeto se tarta de um jogo da velha que irei melhorando com o passar do tempo tudo comecou com 
+objetivo de estudar matrix com vuejs
+
 ## Project setup
 ```
 yarn install
